@@ -1,0 +1,37 @@
+.row {
+	background-color: transparent;
+	float: left;
+	display: inline-block;
+}
+
+.square {
+	background-color: blue;
+	display: inline-block;
+	border-style: solid;
+	border-color: red; 
+	border-width: 1px;
+	float: left;
+}
+
+.green {
+	background-color: green;
+	display: inline-block;
+	border-style: solid;
+	border-color: red; 
+	border-width: 1px;
+	float: left;
+}
+
+#cont {
+	height: 960px;
+	width: 960px;
+	margin: auto;
+	background-color: yellow;
+	position: relative;
+	overflow: hidden;
+}
+
+#controls{
+	margin: auto;
+	width: 10%;
+}
